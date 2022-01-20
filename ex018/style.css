@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Vujahday+Script&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,900;1,300;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,900;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family:'Work Sans', Arial, Verdana, sans-serif;;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Kaushan Script', serif;
+    font-size: 3em;
+    color: black;
+}
+
+h2 {
+ font-family: 'Kaushan Script', serif;
+ font-size: 2em;
+}

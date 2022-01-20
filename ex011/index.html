@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device- width, initial-scale=1.0">
+    <title>MIdias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Abra esse site em varios dispositivos ou aumente e diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagam flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vou aprender a reproduzir audios em HTML.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/universal - vibe tracks.mp3" type="audio/mpeg">
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/you re no help - silent partner.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Caso tenha duvidas</h1>
+    <p><a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-11-aula-3-colocando-audio-no-seu-site/" target="_black" rel="external">clique aqui</a> para ver a aula denovo</p>
+</body>
+</html>
