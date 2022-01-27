@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,26 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover ;
-            background-attachment: fixed;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+                color > image > podition > repeat > [size] > attachment
+
+                O size aida não poder ser usado na shorthand tem que ser colocado depois
+            */
+
+           background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+           background-size: cover;
         }
 
         main {
             background-color: white;
-            max-width: 700px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
