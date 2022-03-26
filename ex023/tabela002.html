@@ -12,14 +12,36 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            color: white;
+            background-color: lightslategray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.76);
+        } 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgba(0, 0, 0, 0.651);
             color: white
+        }
+
+        /*
+            ODD = IPAR
+            EVEN = PAR
+        */
+        tbody > tr:nth-child(2n) {
+            background-color: darkgray;
         }
         td.num{
             text-align: right;
@@ -30,7 +52,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         ANATOMIA PARA TABELAS GRANDES
-
+            CAPTION
             THEAD = CABEÇA
                 TR, TD, TH
             TBODY = CORPO
@@ -39,12 +61,19 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População por unidade federativa</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px">População</th>
             </tr>
         </thead>
+
+        <tfoot>
+            <th scope="rom">Total de Habitantes</th> 
+            <td class="num">210.147.125</td>
+        </tfoot>
+
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -155,10 +184,7 @@
                 <td class="num">450 479	</td>
             </tr>
         </tbody>
-        <tfoot>
-            <th>Total de Habitantes</th> 
-            <td class="num">210.147.125</td>
-        </tfoot>
+        
     </table>
 
 </body>
