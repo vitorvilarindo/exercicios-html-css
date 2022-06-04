@@ -23,8 +23,8 @@
     ex009
 <a href="https://vitorvilarindo.github.io/exercicios-html-css/ex009/index.html">index.httml</a>
     ex010
-<a href="https://vitorvilarindo.github.io/exercicios-html-css/ex0010/index.html">index.html</a>
-<a href="https://vitorvilarindo.github.io/exercicios-html-css/ex0010/pag002.html">pagina 002</a>
+<a href="https://vitorvilarindo.github.io/exercicios-html-css/ex010/index.html">index.html</a>
+<a href="https://vitorvilarindo.github.io/exercicios-html-css/ex010/pag002.html">pagina 002</a>
 
 
  
