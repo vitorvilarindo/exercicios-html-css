@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            line-height: 30px;
+            background-color: lightslategray;
+        }
+        main {
+            background-color: white;
+            padding: 20px 10px 20px 10px;
+            border-radius: 10px;
+        }
+        iframe#tela{
+            width: 90vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+        a.link{
+            text-decoration: none;
+            color: black;
+        }
+        a.link:hover{
+            text-decoration: underline;
+        }
