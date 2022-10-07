@@ -18,8 +18,22 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+
+i#burguer {
+    background-color: rgb(42, 40, 40);
     display: block;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+i#burguer:hover {
+    background-color: rgba(100, 96, 96, 0.877);
+    color: black;
+}
+
+menu {
+    display: none;
 }
 menu > ul {
     display: block;
@@ -33,18 +47,25 @@ menu > ul > li > a {
     background-color: rgb(69, 64, 64);
     color: white;
     border-top: 2px solid black;
+    transition-duration: 0.5s;
 }
+
+menu > ul > li > a:hover {
+    background-color: rgb(188, 188, 188);
+    color: black;
+}  
 
 main {
     background-color: white;
     max-width: 600px ;
     border-radius: 10px;
     margin: 10px;
-    text-indent: 30px;
     padding: 20px;
     line-height: 25px;
 }
 
 article > p {
     padding-top: 10px;
+    text-align: justify;
+    text-indent: 30px;
 } 
