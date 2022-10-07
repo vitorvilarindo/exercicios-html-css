@@ -57,11 +57,14 @@ menu > ul > li > a:hover {
 
 main {
     background-color: white;
-    max-width: 600px ;
+    max-width: 500px ;
     border-radius: 10px;
-    margin: 10px;
+    margin: auto;
     padding: 20px;
     line-height: 25px;
+}
+article {
+    margin: 10px;
 }
 
 article > p {
