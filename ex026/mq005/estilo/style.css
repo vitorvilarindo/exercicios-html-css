@@ -57,7 +57,7 @@ menu > ul > li > a:hover {
 
 main {
     background-color: white;
-    max-width: 460px ;
+    max-width: 70vw;
     border-radius: 10px;
     margin: auto;
     padding: 20px;
